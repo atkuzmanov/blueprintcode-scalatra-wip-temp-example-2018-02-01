@@ -1,0 +1,8 @@
+6c6
+< LoadModule mpm_prefork_module modules/mod_mpm_prefork.so
+---
+> #LoadModule mpm_prefork_module modules/mod_mpm_prefork.so
+18c18
+< #LoadModule mpm_event_module modules/mod_mpm_event.so
+---
+> LoadModule mpm_event_module modules/mod_mpm_event.so

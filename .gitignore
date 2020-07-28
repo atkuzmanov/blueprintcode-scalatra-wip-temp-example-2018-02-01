@@ -1,0 +1,25 @@
+*.class
+*.log
+*.iml
+.DS_Store
+.history
+
+target
+
+# ide things
+.idea
+.ensime_cache/
+.ensime
+.scala_dependencies
+.worksheet
+
+# sbt things
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/

@@ -1,0 +1,14 @@
+{
+  "name" : "blueprintcode",
+  "handle": [
+    {
+      "path": "/",
+      "https": true
+    }
+  ],
+  "packaging" : {
+    "type" : "example-type",
+    "application_port" : 8080,
+    "requires" : [ "httpd24", "httpd24-mod_ssl", "td-agent", "java-1.8.0-openjdk" ]
+  }
+}

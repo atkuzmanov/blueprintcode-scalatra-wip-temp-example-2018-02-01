@@ -1,0 +1,10 @@
+196c196
+<     LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined
+---
+>     LogFormat "%h %l %u %t \"%r\" %>s %b %D \"%{Referer}i\" \"%{User-Agent}i\" \"%{SSLClientCertSubject}i\"" combined
+197c197
+<     LogFormat "%h %l %u %t \"%r\" %>s %b" common
+---
+>     #LogFormat "%h %l %u %t \"%r\" %>s %b" common
+217a218
+>     CustomLog "|/opt/rh/httpd24/root/usr/sbin/rotatelogs -n 2 /var/log/httpd24/access_log 500M" common

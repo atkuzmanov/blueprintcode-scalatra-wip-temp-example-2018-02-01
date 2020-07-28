@@ -1,0 +1,10 @@
+29c29
+< KeepAlive on
+---
+> KeepAlive On
+31a32
+> SSLCARevocationCheck leaf
+33c34
+< SSLProtocol -SSLv2 -SSLv3 +TLSv1 +TLSv1.1 +TLSv1.2
+---
+> SSLProtocol all -SSLv2 -SSLv3
